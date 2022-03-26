@@ -167,7 +167,7 @@
             </div>
 
             <div class="item-3">
-                <my-graph :filename="selectedName" v-bind:paraalpha="alpha" v-bind:parabeta="beta" v-bind:paragamma="gamma" 
+                <my-graph :filename="selectedName" v-bind:paraalphaRep="alpha" v-bind:parabeta="beta" v-bind:paragammaRep="gamma" 
                 v-bind:parastepsize="stepsize" v-bind:flagrun="flagrun" v-bind:flaglocal="flaglocal" 
                 v-bind:filedata="filedata" v-bind:filepath="filepath"
                 @func="getMsgFromSon"></my-graph>

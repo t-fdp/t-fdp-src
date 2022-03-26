@@ -38,9 +38,9 @@ export default {
 
       filedata:Object,
 
-      paraalpha:Number,
-      parabeta:Number,
-      paragamma:Number,
+      paraalphaRep:Number,
+      parabetaAttr:Number,
+      paragammaRep:Number,
       parastepsize:Number,
 
       flagrun:Number,
@@ -96,8 +96,8 @@ export default {
         counts : [],
         timer : d3.timer,
         cnt : 0,
-        maxiter :400,
-        K :2,
+        maxiter :300,
+        K : 1.0,
         p : 2.0,
         yScaleFactorAttr : 0.0,
         xScaleFactorAttr : 1.0,
@@ -105,6 +105,8 @@ export default {
         yScaleFactorRep : 40.0,
         xScaleFactorRep : 1.0,
         DegreeRep : 2.0,
+        alphaRep:this.paraalphaRep,
+        gammaRep:this.paragammaRep,
         fileid : 9,
         lr :20.0,
 
@@ -167,6 +169,7 @@ export default {
     },
 
     RunSimulation() {
+
       this.nodes = this.data.nodes;
       this.nodes.map(d => (d.id = d.name));
       for (var i = 0; i < this.nodes.length; i++) {
@@ -271,8 +274,6 @@ export default {
             that.render();
         }
       };
-        
-
     },
 
     Simulation() {
@@ -328,9 +329,8 @@ export default {
     },
 
     step() {
-
       this.SimulationStep(this.alpha);
-      this.alpha += (0.01 - this.alpha) * 0.011446905343061142;
+      this.alpha += (0.01 - this.alpha) * 0.012955423246736264;
       this.alpha = Math.max(this.alpha, 0.01);
       if (this.iter >= this.maxiter) {
         this.stepper1.stop();
@@ -344,7 +344,9 @@ export default {
     },
 
     SimulationStep(alpha) {
-      this.repulforce.xScaleFactor(this.xScaleFactorRep).yScaleFactor(this.yScaleFactorRep).Degree(this.DegreeRep);
+      var shortrangeRepForceRatio = 1 / this.alphaRep;
+      console.log(shortrangeRepForceRatio);
+      this.repulforce.xScaleFactor(1.0).yScaleFactor(shortrangeRepForceRatio).Degree(this.gammaRep);
       this.repulforce(alpha);
       var i = 0, E = this.links.length;
       for (i = 0; i < E; i++) {
@@ -428,14 +430,15 @@ export default {
         // this.render(this.nodeStrength, this.linkStrength)
       },
 
-      paraalpha(val, oldval) {
+      paraalphaRep(val, oldval) {
+          this.alphaRep = this.paraalphaRep;
           
       },
       parabeta(val, oldval) {
           
       },
-      paragamma(val, oldval) {
-          
+      paragammaRep(val, oldval) {
+          this.gammaRep = this.paragammaRep;
       },
       parastepsize(val, oldval) {
           
