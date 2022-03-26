@@ -1,0 +1,558 @@
+{
+    "nodes": [
+        {
+            "name": "Levine, J.A.",
+            "group": 18
+        },
+        {
+            "name": "Michel, F.",
+            "group": 18
+        },
+        {
+            "name": "Kollmann, W.",
+            "group": 18
+        },
+        {
+            "name": "Kindlmann, G.",
+            "group": 10
+        },
+        {
+            "name": "Westin, C.-F.",
+            "group": 10
+        },
+        {
+            "name": "Wiley, D.F.",
+            "group": 18
+        },
+        {
+            "name": "Reininghaus, J.",
+            "group": 18
+        },
+        {
+            "name": "Duchaineau, M.",
+            "group": 18
+        },
+        {
+            "name": "Hotz, I.",
+            "group": 18
+        },
+        {
+            "name": "Kasten, J.",
+            "group": 18
+        },
+        {
+            "name": "Hansen, C.",
+            "group": 10
+        },
+        {
+            "name": "Johnson, C.R.",
+            "group": 9
+        },
+        {
+            "name": "Rhyne, T.M.",
+            "group": 9
+        },
+        {
+            "name": "Ying Tu",
+            "group": 9
+        },
+        {
+            "name": "Nouanesengsy, B.",
+            "group": 9
+        },
+        {
+            "name": "Bajaj, C.L.",
+            "group": 18
+        },
+        {
+            "name": "Ebert, D.S.",
+            "group": 10
+        },
+        {
+            "name": "Svakhine, N.",
+            "group": 10
+        },
+        {
+            "name": "Yun Jang",
+            "group": 10
+        },
+        {
+            "name": "Malik, A.",
+            "group": 10
+        },
+        {
+            "name": "Rheingans, P.",
+            "group": 10
+        },
+        {
+            "name": "desJardins, M.",
+            "group": 10
+        },
+        {
+            "name": "Mohring, J.",
+            "group": 18
+        },
+        {
+            "name": "Jegorovs, J.",
+            "group": 18
+        },
+        {
+            "name": "Lindstrom, P.",
+            "group": 18
+        },
+        {
+            "name": "Livnat, Y.",
+            "group": 10
+        },
+        {
+            "name": "Cleveland, W.S.",
+            "group": 10
+        },
+        {
+            "name": "Trotts, I.J.",
+            "group": 18
+        },
+        {
+            "name": "Isenburg, M.",
+            "group": 18
+        },
+        {
+            "name": "Schikore, D.R.",
+            "group": 18
+        },
+        {
+            "name": "Lefohn, A.",
+            "group": 10
+        },
+        {
+            "name": "Gao, J.",
+            "group": 9
+        },
+        {
+            "name": "Heckel, B.",
+            "group": 18
+        },
+        {
+            "name": "Schultz, T.",
+            "group": 10
+        },
+        {
+            "name": "Co, C.S.",
+            "group": 18
+        },
+        {
+            "name": "Han-Wei Shen",
+            "group": 9
+        },
+        {
+            "name": "Xiaotong Liu",
+            "group": 9
+        },
+        {
+            "name": "Anderson, J.C.",
+            "group": 18
+        },
+        {
+            "name": "Knoll, A.",
+            "group": 10
+        },
+        {
+            "name": "Wald, I.",
+            "group": 10
+        },
+        {
+            "name": "Caban, J.J.",
+            "group": 10
+        },
+        {
+            "name": "Hagen, H.",
+            "group": 18
+        },
+        {
+            "name": "Bremer, P.-T.",
+            "group": 18
+        },
+        {
+            "name": "Isaacs, K.E.",
+            "group": 18
+        },
+        {
+            "name": "Gamblin, T.",
+            "group": 18
+        },
+        {
+            "name": "Bhatele, A.",
+            "group": 18
+        },
+        {
+            "name": "Hamann, B.",
+            "group": 18
+        },
+        {
+            "name": "Chaoli Wang",
+            "group": 9
+        },
+        {
+            "name": "Yi Gu",
+            "group": 9
+        },
+        {
+            "name": "Kniss, J.",
+            "group": 10
+        },
+        {
+            "name": "Woodring, J.",
+            "group": 9
+        },
+        {
+            "name": "Gosink, L.",
+            "group": 18
+        },
+        {
+            "name": "Joy, K.I.",
+            "group": 18
+        },
+        {
+            "name": "Rudolph, S.",
+            "group": 10
+        },
+        {
+            "name": "Hummel, M.",
+            "group": 18
+        },
+        {
+            "name": "Summa, B.",
+            "group": 18
+        },
+        {
+            "name": "Ehret, J.",
+            "group": 18
+        },
+        {
+            "name": "Munchhofen, M.",
+            "group": 18
+        },
+        {
+            "name": "Gyulassy, A.",
+            "group": 18
+        },
+        {
+            "name": "Pascucci, V.",
+            "group": 18
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 59
+        },
+        {
+            "source": 1,
+            "target": 41
+        },
+        {
+            "source": 2,
+            "target": 46
+        },
+        {
+            "source": 2,
+            "target": 41
+        },
+        {
+            "source": 3,
+            "target": 33
+        },
+        {
+            "source": 3,
+            "target": 4
+        },
+        {
+            "source": 3,
+            "target": 10
+        },
+        {
+            "source": 5,
+            "target": 46
+        },
+        {
+            "source": 6,
+            "target": 9
+        },
+        {
+            "source": 6,
+            "target": 8
+        },
+        {
+            "source": 7,
+            "target": 46
+        },
+        {
+            "source": 7,
+            "target": 59
+        },
+        {
+            "source": 7,
+            "target": 52
+        },
+        {
+            "source": 8,
+            "target": 46
+        },
+        {
+            "source": 8,
+            "target": 41
+        },
+        {
+            "source": 8,
+            "target": 9
+        },
+        {
+            "source": 10,
+            "target": 38
+        },
+        {
+            "source": 10,
+            "target": 46
+        },
+        {
+            "source": 10,
+            "target": 16
+        },
+        {
+            "source": 10,
+            "target": 49
+        },
+        {
+            "source": 10,
+            "target": 11
+        },
+        {
+            "source": 10,
+            "target": 30
+        },
+        {
+            "source": 10,
+            "target": 25
+        },
+        {
+            "source": 11,
+            "target": 35
+        },
+        {
+            "source": 11,
+            "target": 12
+        },
+        {
+            "source": 13,
+            "target": 35
+        },
+        {
+            "source": 14,
+            "target": 35
+        },
+        {
+            "source": 15,
+            "target": 59
+        },
+        {
+            "source": 15,
+            "target": 29
+        },
+        {
+            "source": 16,
+            "target": 19
+        },
+        {
+            "source": 16,
+            "target": 18
+        },
+        {
+            "source": 16,
+            "target": 53
+        },
+        {
+            "source": 16,
+            "target": 26
+        },
+        {
+            "source": 16,
+            "target": 17
+        },
+        {
+            "source": 16,
+            "target": 20
+        },
+        {
+            "source": 18,
+            "target": 19
+        },
+        {
+            "source": 20,
+            "target": 21
+        },
+        {
+            "source": 20,
+            "target": 40
+        },
+        {
+            "source": 22,
+            "target": 41
+        },
+        {
+            "source": 22,
+            "target": 23
+        },
+        {
+            "source": 23,
+            "target": 41
+        },
+        {
+            "source": 24,
+            "target": 59
+        },
+        {
+            "source": 24,
+            "target": 28
+        },
+        {
+            "source": 27,
+            "target": 46
+        },
+        {
+            "source": 27,
+            "target": 52
+        },
+        {
+            "source": 29,
+            "target": 59
+        },
+        {
+            "source": 30,
+            "target": 49
+        },
+        {
+            "source": 31,
+            "target": 35
+        },
+        {
+            "source": 32,
+            "target": 46
+        },
+        {
+            "source": 32,
+            "target": 52
+        },
+        {
+            "source": 34,
+            "target": 52
+        },
+        {
+            "source": 35,
+            "target": 36
+        },
+        {
+            "source": 35,
+            "target": 50
+        },
+        {
+            "source": 35,
+            "target": 47
+        },
+        {
+            "source": 37,
+            "target": 51
+        },
+        {
+            "source": 37,
+            "target": 52
+        },
+        {
+            "source": 38,
+            "target": 39
+        },
+        {
+            "source": 41,
+            "target": 46
+        },
+        {
+            "source": 41,
+            "target": 52
+        },
+        {
+            "source": 41,
+            "target": 56
+        },
+        {
+            "source": 41,
+            "target": 57
+        },
+        {
+            "source": 42,
+            "target": 43
+        },
+        {
+            "source": 42,
+            "target": 44
+        },
+        {
+            "source": 42,
+            "target": 45
+        },
+        {
+            "source": 42,
+            "target": 46
+        },
+        {
+            "source": 42,
+            "target": 59
+        },
+        {
+            "source": 42,
+            "target": 58
+        },
+        {
+            "source": 43,
+            "target": 44
+        },
+        {
+            "source": 43,
+            "target": 45
+        },
+        {
+            "source": 44,
+            "target": 45
+        },
+        {
+            "source": 46,
+            "target": 59
+        },
+        {
+            "source": 46,
+            "target": 52
+        },
+        {
+            "source": 46,
+            "target": 58
+        },
+        {
+            "source": 47,
+            "target": 48
+        },
+        {
+            "source": 51,
+            "target": 52
+        },
+        {
+            "source": 52,
+            "target": 54
+        },
+        {
+            "source": 55,
+            "target": 59
+        },
+        {
+            "source": 58,
+            "target": 59
+        }
+    ]
+}

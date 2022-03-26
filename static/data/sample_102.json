@@ -1,0 +1,54 @@
+{
+    "nodes": [
+        {
+            "name": "551",
+            "group": 1
+        },
+        {
+            "name": "298",
+            "group": 2
+        },
+        {
+            "name": "435",
+            "group": 2
+        },
+        {
+            "name": "661",
+            "group": 2
+        },
+        {
+            "name": "92",
+            "group": 1
+        },
+        {
+            "name": "831",
+            "group": 2
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 0,
+            "target": 0
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 2,
+            "target": 4
+        },
+        {
+            "source": 3,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 5
+        }
+    ]
+}
