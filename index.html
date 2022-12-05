@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>graph_layout_0</title>
-    <script type="text/javascript" src="./static/js/stardust.bundle.min.js"></script>
-    <!-- <script type="text/javascript" src="./static/js/utils.js"></script> -->
-    <script src="./static/js/d3.v6.min.js"></script>
-  </head>
-  <body style="background: #f7f8f9; ">
-    <div class="header" style="background: #05365c;
-    padding: 0 50px;
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>t-FDP Graph Layout</title>
+  <script type="text/javascript" src="./static/js/stardust.bundle.min.js"></script>
+  <!-- Import @tensorflow/tfjs-core -->
+
+
+  <!-- <script type="text/javascript" src="./static/js/utils.js"></script> -->
+  <!-- <script src="./static/js/d3.v6.min.js"></script> -->
+  <link rel="stylesheet" href="./static/css/iview.css">
+  <!-- import iView -->
+  <!-- <script src="//unpkg.com/view-design/dist/iview.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script> -->
+
+  <!-- Adds the WebGL backend to the global backend registry -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-cpu"></script> -->
+
+
+</head>
+<!-- 05365c -->
+
+<body style="background: #f7f8f9; ">
+  <div class="header" style="background:#4e4f50;
     height: 64px;
-    min-width: 1850px;
-    line-height: 64px;">
+    width: 1280px;
+    line-height: 64px; 
+    text-align: center;
+    margin: 0;">
+    <!-- float: left;
+   position: relative;
+   left: 20px;
+   color: #fff;
+   z-index: 999;
+   margin: 0;
+   padding: 0;
+   font-size: 2em; -->
+    <h1 style="
 
-      <h1 style="float: left;
-        position: relative;
-        left: 20px;
-        color: #fff;
-        z-index: 999;
-        margin: 0;
-        padding: 0;
-        font-size: 2em;
-        display: block;">Graph Layout</h1>
+   color: #fff;
+   margin: 0;
+   padding: 0;
+   font-size: 2em; 
+   text-align: center;
+   ">Force-directed graph layouts revisited: a new force based on the t-Distribution</h1>
+  </div>
 
-    </div>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
 
 <!-- <script src="d3.v6.min.js"></script> -->
 <!-- <script type="text/javascript" src="./src/cora/stardust.bundle.min.js"></script>

@@ -1,6 +1,8 @@
-# graph_layout_0
+# Force-directed graph layouts revisited: a new force based on the t-Distribution
 
-> A Vue.js project
+> This is source project of javascript demo for the t-FDP paper. A minimal example for widely used like *d3-force* will be provided as soon as possible. 
+
+> If you want to find experimental data and analysis code, please refer to this [repo](https://github.com/Ideas-Laboratory/t-fdp).
 
 ## Build Setup
 

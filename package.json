@@ -1,8 +1,8 @@
 {
-  "name": "graph_layout_0",
+  "name": "t-fdp_graph_layout",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "jsoung001@gmail.com",
+  "description": "t-fdp graph layout demo",
+  "author": "anonymous",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,9 +10,17 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "axios": "^0.26.1",
+    "d3": "^7.3.0",
+    "iview": "^3.5.4",
+    "iview-ui": "^0.1.5",
+    "view-design": "^4.7.0",
+    "vue": "^2.5.2",
+    "vue-router": "^4.0.14",
+    "vue-select": "^3.18.3"
   },
   "devDependencies": {
+    "@tensorflow/tfjs": "^3.3.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
