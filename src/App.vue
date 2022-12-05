@@ -206,7 +206,7 @@
                     </div>
 
 
- 
+
                     <div class="switch">
                         <span>param1:</span>
                         <input type="checkbox" class="switch">
@@ -492,14 +492,14 @@
 
         <!-- <div class="item-both">
                 <div class="item-3">
-                    <my-graph :filename="selectedName" v-bind:mygraphk="mygraphK" v-bind:mygraphp="mygraphP" 
-                    v-bind:mygraphaone="mygraphA1" v-bind:mygraphatwo="mygraphA2" v-bind:mygraphctwo="mygraphC2" 
+                    <my-graph :filename="selectedName" v-bind:mygraphk="mygraphK" v-bind:mygraphp="mygraphP"
+                    v-bind:mygraphaone="mygraphA1" v-bind:mygraphatwo="mygraphA2" v-bind:mygraphctwo="mygraphC2"
                     v-bind:filedata="filedata" v-bind:filepath="filepath"></my-graph>
                 </div>
 
                 <div class="item-4">
                     <force-d-3 :filename="selectedName" v-bind:nodestrength="nodestrength" v-bind:linkstrength="linkstrength"></force-d-3>
-                    <force-stardust :filename="selectedName" v-bind:gravity="gravity" v-bind:charge="charge" 
+                    <force-stardust :filename="selectedName" v-bind:gravity="gravity" v-bind:charge="charge"
                     v-bind:linkdistance="linkdistance" v-bind:linkstrength="linkstrength"
                     v-bind:filedata="filedata" v-bind:filepath="filepath"></force-stardust>
                 </div>
@@ -620,7 +620,7 @@ export default {
   components: {
     MyGraph,
     ForceD3,
-    ForceStardust,
+    ForceStardust
   },
   //   mounted: {},
   methods: {
@@ -1617,7 +1617,6 @@ input[type="checkbox"].switch:checked::after {
 
 .item-1 {
   /* background-color: #ef342a;   */
-
   border-style: solid;
   border-width: 0px;
   border-radius: 5px;
